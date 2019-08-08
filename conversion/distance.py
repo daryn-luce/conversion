@@ -205,3 +205,249 @@ class Meter():
     @staticmethod
     def nautical(dist):
         return dist / 1852
+
+class Kilometer():
+    @staticmethod
+    def nanometer(dist):
+        return dist * 1e12
+    
+    @staticmethod
+    def micrometer(dist):
+        return dist * 1e9
+
+    @staticmethod
+    def millimeter(dist):
+        return dist * 1e6
+        
+    @staticmethod
+    def centimeter(dist):
+        return dist * 100000
+        
+    @staticmethod
+    def meter(dist):
+        return dist * 1000
+
+    @staticmethod
+    def inch(dist):
+        return dist * 39370.079
+    
+    @staticmethod
+    def foot(dist):
+        return dist * 3280.84
+    
+    @staticmethod
+    def yard(dist):
+        return dist * 1093.613
+        
+    @staticmethod
+    def mile(dist):
+        return dist / 1.609
+        
+    @staticmethod
+    def nautical(dist):
+        return dist / 1.852
+        
+class Inch():
+    @staticmethod
+    def nanometer(dist):
+        return dist * 2.54e7
+    
+    @staticmethod
+    def micrometer(dist):
+        return dist * 25400
+
+    @staticmethod
+    def millimeter(dist):
+        return dist * 25.4
+        
+    @staticmethod
+    def centimeter(dist):
+        return dist * 2.54
+        
+    @staticmethod
+    def meter(dist):
+        return dist / 39.37
+
+    @staticmethod
+    def kilometer(dist):
+        return dist / 39370.079
+    
+    @staticmethod
+    def foot(dist):
+        return dist / 12
+    
+    @staticmethod
+    def yard(dist):
+        return dist / 36
+        
+    @staticmethod
+    def mile(dist):
+        return dist / 63360
+        
+    @staticmethod
+    def nautical(dist):
+        return dist / 72913.386
+
+class Foot():
+    @staticmethod
+    def nanometer(dist):
+        return dist * 3.048e8
+    
+    @staticmethod
+    def micrometer(dist):
+        return dist * 304800
+
+    @staticmethod
+    def millimeter(dist):
+        return dist * 304.8
+        
+    @staticmethod
+    def centimeter(dist):
+        return dist * 30.48
+        
+    @staticmethod
+    def meter(dist):
+        return dist / 3.281
+
+    @staticmethod
+    def kilometer(dist):
+        return dist / 3280.84
+    
+    @staticmethod
+    def inch(dist):
+        return dist * 12
+    
+    @staticmethod
+    def yard(dist):
+        return dist / 3
+        
+    @staticmethod
+    def mile(dist):
+        return dist / 5280
+        
+    @staticmethod
+    def nautical(dist):
+        return dist / 6076.115
+
+class Yard():
+    @staticmethod
+    def nanometer(dist):
+        return dist * 9.144e+8
+    
+    @staticmethod
+    def micrometer(dist):
+        return dist * 914400
+
+    @staticmethod
+    def millimeter(dist):
+        return dist * 914.4
+        
+    @staticmethod
+    def centimeter(dist):
+        return dist * 91.44
+        
+    @staticmethod
+    def meter(dist):
+        return dist / 1.094
+
+    @staticmethod
+    def kilometer(dist):
+        return dist / 1093.613
+    
+    @staticmethod
+    def inch(dist):
+        return dist * 36
+    
+    @staticmethod
+    def foot(dist):
+        return dist * 3
+        
+    @staticmethod
+    def mile(dist):
+        return dist / 1760
+        
+    @staticmethod
+    def nautical(dist):
+        return dist / 2025.372
+
+class Mile():
+    @staticmethod
+    def nanometer(dist):
+        return dist * 9.144e+8
+    
+    @staticmethod
+    def micrometer(dist):
+        return dist * 914400
+
+    @staticmethod
+    def millimeter(dist):
+        return dist * 914.4
+        
+    @staticmethod
+    def centimeter(dist):
+        return dist * 91.44
+        
+    @staticmethod
+    def meter(dist):
+        return dist / 1.094
+
+    @staticmethod
+    def kilometer(dist):
+        return dist / 1093.613
+    
+    @staticmethod
+    def inch(dist):
+        return dist * 36
+    
+    @staticmethod
+    def foot(dist):
+        return dist * 3
+        
+    @staticmethod
+    def yard(dist):
+        return dist / 1760
+        
+    @staticmethod
+    def nautical(dist):
+        return dist / 2025.372
+
+class Nautical():
+    @staticmethod
+    def nanometer(dist):
+        return dist * 9.144e+8
+    
+    @staticmethod
+    def micrometer(dist):
+        return dist * 914400
+
+    @staticmethod
+    def millimeter(dist):
+        return dist * 914.4
+        
+    @staticmethod
+    def centimeter(dist):
+        return dist * 91.44
+        
+    @staticmethod
+    def meter(dist):
+        return dist / 1.094
+
+    @staticmethod
+    def kilometer(dist):
+        return dist / 1093.613
+    
+    @staticmethod
+    def inch(dist):
+        return dist * 36
+    
+    @staticmethod
+    def foot(dist):
+        return dist * 3
+        
+    @staticmethod
+    def yard(dist):
+        return dist / 1760
+        
+    @staticmethod
+    def mile(dist):
+        return dist / 2025.372

@@ -1,4 +1,30 @@
-class Temperature:
+class Temperature():
+    def __init__(self):
+        self.fahrenheit = self.initFahrenheit()
+        
+    def initFahrenheit(self):
+        return Temperature.Fahrenheit(self)
+        
+    class Fahrenheit():
+        def __init__(self,temp):
+            self.temp = temp
+            self.boil = 212.00
+            self.freeze = 32.00
+            self.zero = -459.67
+            
+        #Fahrenheit to x
+        @staticmethod
+        def celsius(temp):
+            return round((temp - 32) * (5/9),2)
+            
+        @staticmethod
+        def kelvin(temp):
+            return round((temp - 32) * (5/9) + 273.15,2) 
+            
+test = Temperature()
+print(test.fahrenheit.celsius(77))            
+            
+'''            
     #notable temps
     cel_boil = 100.00
     fah_boil = 212.00 
@@ -12,14 +38,7 @@ class Temperature:
     fah_absz = -459.67
     kel_absz = 0
     
-    #Fahrenheit to x
-    @staticmethod
-    def fah_to_cel(temp):
-        return round((temp - 32) * (5/9),2)
-        
-    @staticmethod
-    def fah_to_kel(temp):
-        return round((temp - 32) * (5/9) + 273.15,2)
+
     
     #Celsius to x
     @staticmethod
@@ -38,7 +57,6 @@ class Temperature:
     @staticmethod    
     def kel_to_cel(temp):
         return round(temp - 273.15,2)
-        
 class Distance:
     
     # Centimeter to x
@@ -53,6 +71,14 @@ class Distance:
     @staticmethod
     def cm_to_yard(dist):
         return round(dist / 91.44,2)
+        
+    @staticmethod
+    def cm_to_mile(dist):
+        return round(dist / 160934.4,2)
+        
+    @staticmethod
+    def cm_to_nmi(dist):
+        return round(dist / 185200,2)
         
     @staticmethod
     def cm_to_nm(dist):
@@ -72,4 +98,4 @@ class Distance:
         
     @staticmethod
     def cm_to_km(dist):
-        return round(dist / 100000,2)          
+        return round(dist / 100000,2)          '''
